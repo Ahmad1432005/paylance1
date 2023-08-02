@@ -13,9 +13,6 @@ const client = new Discord.Client({
 });
 
 const { EmbedBuilder } = require('discord.js');
-
-const Database = require("@replit/database");
-const db = new Database();
 const fs = require("fs");
 const prefix = "!";
 
@@ -64,4 +61,3 @@ client.on("ready", () => {
 });
 
 client.login(mySecret);
-  
